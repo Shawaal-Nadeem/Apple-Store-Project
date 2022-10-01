@@ -1,38 +1,167 @@
-.App {
+body{
+  background-color: black;
+
+}
+
+nav{
+  background: linear-gradient(165.96deg, black 9.73%, rgb(31, 30, 30) 75.78%); 
+  height: 60px;
+  width: 100%;
+}
+label.logo{
+  padding:0 100px;
+
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 30px;
+  margin: 0 40px;
+}
+.navbtn{
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(238, 240, 242);
+  background-color: rgb(31, 30, 30);
+  border-style:hidden;
+}
+.navbtn:hover{
+background-color: rgb(177, 186, 191);
+}
+.heading{
+text-align: center;
+color: white;
+}
+.slideshowpic{
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.card1{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.trans1{
+  transition: transform .2s;
+}
+.trans1:hover{
+  transform: scale(1.1);
+}
+.card2{
+  margin-left: 20px;
+  transition: transform .2s;
+}
+.card2:hover{
+  transform: scale(1.1);
+}
+.card3{
+  margin-left: 20px;
+  transition: transform .2s;
+}
+.card3:hover{
+  transform: scale(1.1);
+}
+.aboutbg{
+  color: rgb(182, 192, 198);
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.aboutbg>img{
+ margin-left: 19%;
+ margin-top: 35px;
+  
+}
+.aboutbg>p{
+font-size: 20px;
+color:rgb(233, 235, 237);
+}
+.headingAllIphone{
+  color: rgb(182, 192, 198);
+  text-align: center;
+
+}
+.ReleaseDate{
+  color:rgb(233, 235, 237);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.genonePic{
+  margin-left: 20%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.detailPhone{
+  margin-top: 30px;
+  color: rgb(182, 192, 198);
+  font-size: 20px;
+  margin-left: 30px;
+}
+.se{
+  margin-left: 25%;
+}
+.i7{
+margin-left: 20%;
+}
+.i8{
+  margin-left: 37%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .x{
+    margin-left: 20%;
   }
-  to {
-    transform: rotate(360deg);
+  .xs{
+    margin-left: 29%;
   }
-}
+  .i11{
+    margin-left: 16%;
+  }
+  .ise2{
+    margin-left: 32%;
+  }
+  .i12{
+    margin-left: 20%;
+  }
+  .i12r{
+    margin-left: 8%;
+  }
+  .i12p{
+    margin-left: 25%;
+  }
+  .i13{
+    margin-left: 10%;
+  }
+  .i13m{
+    margin-left: 12%;
+  }
+  .i13p{
+    margin-left: 26%;
+  }
+  .i13pm{
+    margin-left: 22%;
+  }
+  .i14{
+    margin-left: 3%;
+  }
+  .i14p{
+    height: 400px;
+    margin-left: 23%;
+  }
+  .i14pm1{
+    margin-left: 6%;
+  }
+  .i14pm2{
+    margin-top: 5%;
+  }
+  .i14pm3{
+    width: 100%;
+    margin-top: 6%;
+  }
+  .i14pm4{
+    margin-top: 6%;
+  }
+  .i14pm5{
+    margin-top: 8%;
+  }
