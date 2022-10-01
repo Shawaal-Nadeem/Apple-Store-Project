@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 function App() {
 
   const [selectedImage, setSelectedImage] = useState(0)
-  const [allImages, setAllImages] = useState(['images/pic3.png', '/images/14pm.png','images/pic1.png'])
+  const [allImages, setAllImages] = useState(['images/pic3.png', '/images/22n.png','images/pic1.png'])
 
   useEffect(() => {
     setInterval(() => {
