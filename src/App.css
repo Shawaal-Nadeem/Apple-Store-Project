@@ -1,4 +1,636 @@
-@media screen and (min-width: 510px){ 
+@media screen and (max-width: 510px){ 
+  body{
+    background-color: black;
+  
+  }
+  
+  nav{
+    background: linear-gradient(142.96deg, black 5.00%, rgb(31, 30, 30) 95.0%); 
+    height: 60px;
+    width: 100%;
+  }
+  label.logo{
+    padding:0 10px;
+  
+  }
+  .img-size{
+    margin-top: 2%;
+    height: 40px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 2px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 0px;
+    margin: 0px;
+  }
+  .navbtn{
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(238, 240, 242);
+    background-color: rgb(31, 30, 30);
+    border-style:hidden;
+   
+  }
+  .navbtn:hover{
+  background-color: rgb(177, 186, 191);
+  }
+  .heading{
+    margin-top: 10%;
+  text-align: center;
+  color: white;
+  font-size: 90%;
+  }
+  .slideshowpic{
+    height: 150px;
+    width: 100%;
+    margin-top: 20%;
+  }
+  
+  .card1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .trans1{
+    transition: transform .2s;
+  }
+  .trans1:hover{
+    transform: scale(1.1);
+  }
+  .card2{
+    margin-top: 20px;
+    transition: transform .2s;
+  }
+  .card2:hover{
+    transform: scale(1.1);
+  }
+  .card3{
+    margin-top: 20px;
+    transition: transform .2s;
+  }
+  .card3:hover{
+    transform: scale(1.1);
+  }
+  .aboutbg{
+    color: rgb(182, 192, 198);
+    margin-top: 60px;
+    margin-left: 6px;
+  }
+  .about-heading{
+  font-size: 130%;
+  }
+  .aboutbg>img{
+   margin-top: 35px;
+    
+  }
+  .about-pic{
+    width: 98%;
+  }
+  .aboutbg>p{
+  font-size: 13px;
+  color:rgb(233, 235, 237);
+  }
+  .about-heading1{
+    font-size: 130%;
+    }
+  .headingAllIphone{
+    color: rgb(182, 192, 198);
+    text-align: center;
+  
+  }
+  .ReleaseDate{
+    color:rgb(233, 235, 237);
+    text-align: center;
+    font-size: 20px;
+  }
+  .genonePic{
+    margin-left: 2%;
+    width: 96%;
+  }
+  .detailPhone{
+    margin-top: 30px;
+    color: rgb(182, 192, 198);
+    font-size: 15px;
+    margin-left: 3px;
+  }
+  .se{
+    margin-left: 2%;
+    width: 100%;
+  }
+  .i7{
+  margin-left: 2%;
+  width: 100%;
+  }
+  .i8{
+    margin-left: 2%;
+    width: 100%;
+    }
+    .x{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .xs{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i11{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .ise2{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i12{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i12r{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i12p{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i13{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i13m{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i13p{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i13pm{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i14{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i14p{
+      height: 400px;
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i14pm1{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i14pm2{
+      margin-top: 2%;
+      width: 100%;
+    }
+    .i14pm3{
+      width: 100%;
+      margin-top: 2%;
+    }
+    .i14pm4{
+      margin-top: 2%;
+      width: 100%;
+    }
+    .i14pm5{
+      margin-top: 2%;
+      width: 100%;
+    }
+  
+  }
+  
+
+  @media screen and (min-width: 510px){
+    body{
+      background-color: black;
+    
+    }
+    
+    nav{
+      background: linear-gradient(142.96deg, black 5.00%, rgb(31, 30, 30) 95.0%); 
+      height: 60px;
+      width: 100%;
+    }
+    label.logo{
+      padding:0 10px;
+    
+    }
+    .img-size{
+      margin-top: 5px;
+      height: 50px;
+      width: 45px;
+
+    }
+    nav ul{
+      float: right;
+      margin-right: 2px;
+    }
+    nav ul li{
+      display: inline-block;
+      line-height: 0px;
+      margin: 0px;
+    }
+    .navbtn{
+      cursor: pointer;
+      font-size: 15px;
+      color: rgb(238, 240, 242);
+      background-color: rgb(31, 30, 30);
+      border-style:hidden;
+     
+    }
+    .navbtn:hover{
+    background-color: rgb(177, 186, 191);
+    }
+    .heading{
+      margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    }
+    .slideshowpic{
+      height: 300px;
+      width: 100%;
+      margin-top: 20%;
+    }
+    
+    .card1{
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .trans1{
+      transition: transform .2s;
+    }
+    .trans1:hover{
+      transform: scale(1.1);
+    }
+    .card2{
+      margin-top: 20px;
+      transition: transform .2s;
+    }
+    .card2:hover{
+      transform: scale(1.1);
+    }
+    .card3{
+      margin-top: 20px;
+      transition: transform .2s;
+    }
+    .card3:hover{
+      transform: scale(1.1);
+    }
+    .aboutbg{
+      color: rgb(182, 192, 198);
+      margin-top: 60px;
+      margin-left: 6px;
+    }
+    .about-heading{
+    font-size: 130%;
+    }
+    .aboutbg>img{
+     margin-top: 35px;
+      
+    }
+    .about-pic{
+      width: 98%;
+    }
+    .aboutbg>p{
+    font-size: 13px;
+    color:rgb(233, 235, 237);
+    }
+    .about-heading1{
+      font-size: 130%;
+      }
+    .headingAllIphone{
+      color: rgb(182, 192, 198);
+      text-align: center;
+    
+    }
+    .ReleaseDate{
+      color:rgb(233, 235, 237);
+      text-align: center;
+      font-size: 20px;
+    }
+    .genonePic{
+      margin-left: 2%;
+      width: 96%;
+    }
+    .detailPhone{
+      margin-top: 30px;
+      color: rgb(182, 192, 198);
+      font-size: 15px;
+      margin-left: 3px;
+    }
+    .se{
+      margin-left: 2%;
+      width: 100%;
+    }
+    .i7{
+    margin-left: 2%;
+    width: 100%;
+    }
+    .i8{
+      margin-left: 2%;
+      width: 100%;
+      }
+      .x{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .xs{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i11{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .ise2{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i12{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i12r{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i12p{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i13{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i13m{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i13p{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i13pm{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i14{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i14p{
+        height: 400px;
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i14pm1{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i14pm2{
+        margin-top: 2%;
+        width: 100%;
+      }
+      .i14pm3{
+        width: 100%;
+        margin-top: 2%;
+      }
+      .i14pm4{
+        margin-top: 2%;
+        width: 100%;
+      }
+      .i14pm5{
+        margin-top: 2%;
+        width: 100%;
+      }
+    
+    }
+  
+
+    @media screen and (min-width: 800px){
+      body{
+        background-color: black;
+      
+      }
+      
+      nav{
+        background: linear-gradient(142.96deg, black 2.00%, rgb(31, 30, 30) 95.0%); 
+        height: 60px;
+        width: 100%;
+      }
+      label.logo{
+        padding:0 10px;
+      
+      }
+      .img-size{
+        margin-top: 5px;
+        height: 50px;
+        width: 45px;
+  
+      }
+      nav ul{
+        float: right;
+        margin-right: 2px;
+      }
+      nav ul li{
+        display: inline-block;
+        line-height: 0px;
+        margin: 0px;
+      }
+      .navbtn{
+        cursor: pointer;
+        font-size: 18px;
+        color: rgb(238, 240, 242);
+        background-color: rgb(31, 30, 30);
+        border-style:hidden;
+        padding-left: 40px;
+       
+      }
+      .navbtn:hover{
+      background-color: rgb(177, 186, 191);
+      }
+      .heading{
+        margin-top: 10%;
+      text-align: center;
+      color: white;
+      font-size: 150%;
+      }
+      .slideshowpic{
+        height: 300px;
+        width: 100%;
+        margin-top: 20%;
+      }
+      
+      .card1{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      }
+      .trans1{
+        transition: transform .2s;
+      }
+      .trans1:hover{
+        transform: scale(1.1);
+      }
+      .card2{
+        margin-top: 20px;
+        transition: transform .2s;
+      }
+      .card2:hover{
+        transform: scale(1.1);
+      }
+      .card3{
+        margin-top: 20px;
+        transition: transform .2s;
+      }
+      .card3:hover{
+        transform: scale(1.1);
+      }
+      .aboutbg{
+        color: rgb(182, 192, 198);
+        margin-top: 60px;
+        margin-left: 6px;
+      }
+      .about-heading{
+      font-size: 130%;
+      }
+      .aboutbg>img{
+       margin-top: 35px;
+        
+      }
+      .about-pic{
+        width: 98%;
+      }
+      .aboutbg>p{
+      font-size: 13px;
+      color:rgb(233, 235, 237);
+      }
+      .about-heading1{
+        font-size: 130%;
+        }
+      .headingAllIphone{
+        color: rgb(182, 192, 198);
+        text-align: center;
+      
+      }
+      .ReleaseDate{
+        color:rgb(233, 235, 237);
+        text-align: center;
+        font-size: 20px;
+      }
+      .genonePic{
+        margin-left: 2%;
+        width: 96%;
+      }
+      .detailPhone{
+        margin-top: 30px;
+        color: rgb(182, 192, 198);
+        font-size: 15px;
+        margin-left: 3px;
+      }
+      .se{
+        margin-left: 2%;
+        width: 100%;
+      }
+      .i7{
+      margin-left: 2%;
+      width: 100%;
+      }
+      .i8{
+        margin-left: 2%;
+        width: 100%;
+        }
+        .x{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .xs{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i11{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .ise2{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i12{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i12r{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i12p{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i13{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i13m{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i13p{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i13pm{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i14{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i14p{
+          height: 400px;
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i14pm1{
+          margin-left: 2%;
+          width: 100%;
+        }
+        .i14pm2{
+          margin-top: 2%;
+          width: 100%;
+        }
+        .i14pm3{
+          width: 100%;
+          margin-top: 2%;
+        }
+        .i14pm4{
+          margin-top: 2%;
+          width: 100%;
+        }
+        .i14pm5{
+          margin-top: 2%;
+          width: 100%;
+        }
+      
+      }
+
+
+@media screen and (min-width:950px){ 
   body{
     background-color: black;
   
@@ -25,7 +657,7 @@
   }
   .navbtn{
     cursor: pointer;
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(238, 240, 242);
     background-color: rgb(31, 30, 30);
     border-style:hidden;
@@ -36,10 +668,14 @@
   .heading{
   text-align: center;
   color: white;
+  margin-top: 10px;
   }
   .slideshowpic{
-    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10%;
+    height: 600px;
   }
   
   .card1{
@@ -51,6 +687,7 @@
   }
   .trans1{
     transition: transform .2s;
+ margin-top: 20px;
   }
   .trans1:hover{
     transform: scale(1.1);
@@ -75,7 +712,9 @@
     margin-left: 30px;
   }
   .aboutbg>img{
-   margin-left: 19%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    margin-top: 35px;
     
   }
@@ -169,210 +808,3 @@
 }
   
 
-@media screen and (max-width: 500px){ 
-body{
-  background-color: black;
-
-}
-
-nav{
-  background: linear-gradient(142.96deg, black 5.00%, rgb(31, 30, 30) 95.0%); 
-  height: 60px;
-  width: 100%;
-}
-label.logo{
-  padding:0 10px;
-
-}
-.img-size{
-  margin-top: 2%;
-  height: 40px;
-}
-nav ul{
-  float: right;
-  margin-right: 2px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 0px;
-  margin: 0px;
-}
-.navbtn{
-  cursor: pointer;
-  font-size: 12px;
-  color: rgb(238, 240, 242);
-  background-color: rgb(31, 30, 30);
-  border-style:hidden;
- 
-}
-.navbtn:hover{
-background-color: rgb(177, 186, 191);
-}
-.heading{
-  margin-top: 10%;
-text-align: center;
-color: white;
-font-size: 90%;
-}
-.slideshowpic{
-  height: 250px;
-  width: 100%;
-  margin-top: 20%;
-}
-
-.card1{
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-.trans1{
-  transition: transform .2s;
-}
-.trans1:hover{
-  transform: scale(1.1);
-}
-.card2{
-  margin-top: 20px;
-  transition: transform .2s;
-}
-.card2:hover{
-  transform: scale(1.1);
-}
-.card3{
-  margin-top: 20px;
-  transition: transform .2s;
-}
-.card3:hover{
-  transform: scale(1.1);
-}
-.aboutbg{
-  color: rgb(182, 192, 198);
-  margin-top: 60px;
-  margin-left: 6px;
-}
-.about-heading{
-font-size: 130%;
-}
-.aboutbg>img{
- margin-top: 35px;
-  
-}
-.about-pic{
-  width: 98%;
-}
-.aboutbg>p{
-font-size: 13px;
-color:rgb(233, 235, 237);
-}
-.about-heading1{
-  font-size: 130%;
-  }
-.headingAllIphone{
-  color: rgb(182, 192, 198);
-  text-align: center;
-
-}
-.ReleaseDate{
-  color:rgb(233, 235, 237);
-  text-align: center;
-  font-size: 20px;
-}
-.genonePic{
-  margin-left: 2%;
-  width: 96%;
-}
-.detailPhone{
-  margin-top: 30px;
-  color: rgb(182, 192, 198);
-  font-size: 15px;
-  margin-left: 3px;
-}
-.se{
-  margin-left: 2%;
-  width: 100%;
-}
-.i7{
-margin-left: 2%;
-width: 100%;
-}
-.i8{
-  margin-left: 2%;
-  width: 100%;
-  }
-  .x{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .xs{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i11{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .ise2{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i12{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i12r{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i12p{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i13{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i13m{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i13p{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i13pm{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i14{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i14p{
-    height: 400px;
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i14pm1{
-    margin-left: 2%;
-    width: 100%;
-  }
-  .i14pm2{
-    margin-top: 2%;
-    width: 100%;
-  }
-  .i14pm3{
-    width: 100%;
-    margin-top: 2%;
-  }
-  .i14pm4{
-    margin-top: 2%;
-    width: 100%;
-  }
-  .i14pm5{
-    margin-top: 2%;
-    width: 100%;
-  }
-
-}
