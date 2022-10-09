@@ -732,7 +732,8 @@
     text-align: center;
   }
   .genonePic{
-    margin-left: 20%;
+    margin-left: 0%;
+    width:100%
   }
   .detailPhone{
     margin-top: 30px;
@@ -741,69 +742,91 @@
     margin-left: 30px;
   }
   .se{
-    margin-left: 25%;
+    margin-left: 0%;
+    width:100%
   }
   .i7{
-  margin-left: 20%;
+    margin-left: 0%;
+    width:100%
   }
   .i8{
-    margin-left: 37%;
+    margin-left: 0%;
+    width:100%
     }
     .x{
-      margin-left: 20%;
+      margin-left: 0%;
+    width:100%
     }
     .xs{
-      margin-left: 29%;
+      margin-left: 0%;
+    width:100%
     }
     .i11{
-      margin-left: 16%;
+      margin-left: 0%;
+    width:100%
     }
     .ise2{
-      margin-left: 32%;
+      margin-left: 0%;
+    width:100%
     }
     .i12{
-      margin-left: 20%;
+      margin-left: 0%;
+    width:100%
     }
     .i12r{
-      margin-left: 8%;
+      margin-left: 0%;
+    width:100%
     }
     .i12p{
-      margin-left: 25%;
+      margin-left: 0%;
+      width:100%
     }
     .i13{
-      margin-left: 10%;
+      margin-left: 0%;
+    width:100%
     }
     .i13m{
-      margin-left: 12%;
+      margin-left: 0%;
+      width:100%
     }
     .i13p{
-      margin-left: 26%;
+      margin-left: 0%;
+      width:100%
     }
     .i13pm{
-      margin-left: 22%;
+      margin-left: 0%;
+    width:100%
     }
     .i14{
-      margin-left: 3%;
+      margin-left: 0%;
+    width:100%
     }
     .i14p{
-      height: 400px;
-      margin-left: 23%;
+      height: 700px;
+      margin-left: 0%;
+      width:100%
     }
     .i14pm1{
-      margin-left: 6%;
+      margin-left: 0%;
+      width:100%
     }
     .i14pm2{
-      margin-top: 5%;
+      margin-left: 0%;
+    width:100%
     }
     .i14pm3{
-      width: 100%;
-      margin-top: 6%;
+      margin-left: 0%;
+    width:100%
     }
     .i14pm4{
       margin-top: 6%;
+      margin-left: 0%;
+      width:100%
     }
     .i14pm5{
       margin-top: 8%;
+      margin-left: 0%;
+      width:100%
     }
 }
   
