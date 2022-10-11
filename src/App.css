@@ -30,12 +30,13 @@
     cursor: pointer;
     font-size: 12px;
     color: rgb(238, 240, 242);
-    background-color: rgb(31, 30, 30);
+    background-color: transparent;
     border-style:hidden;
    
   }
   .navbtn:hover{
   background-color: rgb(177, 186, 191);
+  color:black;
   }
   .heading{
     margin-top: 10%;
@@ -241,12 +242,13 @@
       cursor: pointer;
       font-size: 15px;
       color: rgb(238, 240, 242);
-      background-color: rgb(31, 30, 30);
+      background-color: transparent;
       border-style:hidden;
      
     }
     .navbtn:hover{
     background-color: rgb(177, 186, 191);
+    color: black;
     }
     .heading{
       margin-top: 10%;
@@ -446,19 +448,20 @@
       nav ul li{
         display: inline-block;
         line-height: 0px;
-        margin: 0px;
+        margin: 0 20px;
       }
       .navbtn{
         cursor: pointer;
         font-size: 18px;
         color: rgb(238, 240, 242);
-        background-color: rgb(31, 30, 30);
+        background-color: transparent;
         border-style:hidden;
-        padding-left: 40px;
-       
+        padding: 10px;
+     
       }
       .navbtn:hover{
       background-color: rgb(177, 186, 191);
+      color: black;
       }
       .heading{
         margin-top: 10%;
@@ -659,16 +662,18 @@
     cursor: pointer;
     font-size: 20px;
     color: rgb(238, 240, 242);
-    background-color: rgb(31, 30, 30);
+    background-color: transparent;
     border-style:hidden;
   }
   .navbtn:hover{
   background-color: rgb(177, 186, 191);
+  color: black;
   }
-  .heading{
+  .heading>h2{
   text-align: center;
   color: white;
   margin-top: 10px;
+  font-size: 400%;
   }
   .slideshowpic{
     display: flex;
